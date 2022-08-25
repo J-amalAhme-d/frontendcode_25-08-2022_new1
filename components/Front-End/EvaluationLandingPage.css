@@ -1,0 +1,46 @@
+.circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(
+      to right,
+      rgb(92, 174, 240),
+      rgb(37, 39, 163)
+    );
+  }
+  :hover .circle {
+    cursor: pointer;
+  }
+  .main {
+    margin-right: 74px;
+    margin-top: 86px;
+    margin-left: 61px;
+  }
+  .text {
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .parent1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .parent2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
